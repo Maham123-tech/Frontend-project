@@ -1,9 +1,9 @@
-// App.js
 import React from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import Services from './Services';
-import TeamPage from './pages/TeamPage'; // Updated path to include pages folder
+import TeamPage from './pages/TeamPage';
+import CustomerReviews from './pages/CustomerReviews'; 
 import './App.css';
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
       <Hero />
       <Services />
       <TeamPage />
+      <CustomerReviews />
     </div>
   );
 }

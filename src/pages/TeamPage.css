@@ -8,14 +8,12 @@
   border-radius: 16px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
 }
-
 .team-content {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
   margin-bottom: 50px;
 }
-
 .team-text {
   flex: 1;
   min-width: 300px;
@@ -23,21 +21,18 @@
   flex-direction: column;
   justify-content: center;
 }
-
 .team-text h2 {
   font-size: 2.2rem;
   color: #333;
   margin-bottom: 20px;
   line-height: 1.3;
 }
-
 .team-text p {
   font-size: 1.1rem;
   color: #666;
   line-height: 1.6;
   margin-bottom: 30px;
 }
-
 .see-more {
   color: #8b5cf6;
   text-decoration: none;
@@ -46,11 +41,9 @@
   transition: color 0.3s ease;
   align-self: flex-start;
 }
-
 .see-more:hover {
   color: #7c3aed;
 }
-
 .team-image-container {
   flex: 1;
   min-width: 300px;
@@ -58,7 +51,6 @@
   align-items: center;
   justify-content: center;
 }
-
 .team-image {
   width: 100%;
   height: 400px;
@@ -67,13 +59,11 @@
   position: relative;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
-
 .team-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
 .play-button {
   position: absolute;
   top: 50%;
@@ -90,12 +80,10 @@
   transition: all 0.3s ease;
   z-index: 2;
 }
-
 .play-button:hover {
   background-color: rgba(124, 58, 237, 0.9);
   transform: translate(-50%, -50%) scale(1.05);
 }
-
 .play-icon {
   width: 0;
   height: 0;
@@ -104,20 +92,17 @@
   border-left: 30px solid white;
   margin-left: 8px;
 }
-
 .team-title {
   text-align: center;
   padding-top: 20px;
   border-top: 1px solid #e9ecef;
 }
-
 .team-title h3 {
   font-size: 1.8rem;
   color: #333;
   position: relative;
   display: inline-block;
 }
-
 .team-title h3::after {
   content: '';
   position: absolute;
@@ -128,6 +113,85 @@
   height: 3px;
   background-color: #8b5cf6;
   border-radius: 2px;
+}
+/* Brand Logos Section */
+.brand-logos-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+  flex-wrap: wrap;
+}
+.brand-item {
+  flex: 1;
+  min-width: 180px;
+  text-align: center;
+  padding: 0 10px;
+}
+.brand-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+/* Decorative Pattern - Using CSS instead of image */
+.decorative-pattern {
+  width: 120px;
+  height: 60px;
+  background: linear-gradient(45deg, #8b5cf6 25%, transparent 25%),
+              linear-gradient(-45deg, #8b5cf6 25%, transparent 25%),
+              linear-gradient(45deg, transparent 75%, #8b5cf6 75%),
+              linear-gradient(-45deg, transparent 75%, #8b5cf6 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+  border-radius: 8px;
+}
+/* AdClipse */
+.adclipse-logo {
+  color: #2E86DE; /* Blue color */
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+/* PJC BRIDGE */
+.pjc-bridge-logo {
+  color: #8C7AE6; /* Purple color */
+}
+.pjc-main {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.pjc-sub {
+  font-size: 0.7rem;
+  margin-top: 5px;
+}
+/* ClickOrder */
+.clickorder-logo {
+  color: #00D2D3; /* Green color */
+}
+.clickorder-icon {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+.clickorder-text {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.clickorder-slogan {
+  font-size: 0.7rem;
+  margin-top: 5px;
+}
+/* TechMate */
+.techmate-logo {
+  color: #576574; /* Gray color */
+}
+.techmate-icon {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+.techmate-text {
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 /* Responsive adjustments */
