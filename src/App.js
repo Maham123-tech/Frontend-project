@@ -6,6 +6,7 @@ import Services from './Services';
 import TeamPage from './pages/TeamPage';
 import CustomerReviews from './pages/CustomerReviews';
 import CaseStudiesPage from './pages/CaseStudiesPage';
+import GreatSoftwarePage from './pages/GreatSoftwarePage';
 import './App.css';
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       <Services />
       <TeamPage />
       <CustomerReviews />
-      <CaseStudiesPage /> {/* Moved this to the end */}
+      <CaseStudiesPage /> 
+      <GreatSoftwarePage />
     </div>
   );
 }
