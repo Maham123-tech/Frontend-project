@@ -2,7 +2,8 @@
 import React from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
-import Services from './Services'; // Direct import from src folder
+import Services from './Services';
+import TeamPage from './pages/TeamPage'; // Updated path to include pages folder
 import './App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
+      <TeamPage />
     </div>
   );
 }
