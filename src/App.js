@@ -7,6 +7,7 @@ import TeamPage from './pages/TeamPage';
 import CustomerReviews from './pages/CustomerReviews';
 import CaseStudiesPage from './pages/CaseStudiesPage';
 import GreatSoftwarePage from './pages/GreatSoftwarePage';
+import DesignMethodPage from './pages/DesignMethodPage';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <CustomerReviews />
       <CaseStudiesPage /> 
       <GreatSoftwarePage />
+      <DesignMethodPage />
     </div>
   );
 }
